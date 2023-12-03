@@ -1,0 +1,50 @@
+.navbar-nav .nav-link.active {
+    border-bottom: 2px solid white;
+    color:black;
+}
+
+.margin-custom-tp {
+    margin-top: -200px;
+}
+
+.margin-custom-tp2 {
+    margin-top: -650px;
+}
+
+.margin-custom-tp3 {
+    margin-top: -550px;
+}
+
+.btn-custom-wd {
+    width: 200px;
+}
+
+.full-page {
+    display: flex; 
+}
+
+.fs-custom {
+    font-size: 3rem;
+}
+
+.fs-custom2 {
+    font-size: 2.5rem;
+}
+
+.margin-custom-lf {
+    margin-left: 150px;
+}
+
+.mx-custom {
+    margin-left: 150px;
+    margin-right: 10px;
+}
+
+.m-cust-rg {
+    margin-right: 100px;
+}
+
+.m-cust-tp {
+    margin-top: 40px;
+}
+
