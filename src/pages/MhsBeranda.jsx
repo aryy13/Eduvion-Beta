@@ -1,8 +1,14 @@
-import React from "react";
+import React from 'react';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 
-const Badan = () => {
-    return(
-     <>
+const MhsBeranda = () => {
+    return (
+        <>
+        <div className='container-fluid'>
+            <Header /> 
+        </div>
+        
         <section className="bg-primary full-page"> 
          <div className="row">
          <svg xmlns="http://www.w3.org/2000/svg" width="1512" height="600" viewBox="0 0 1512 600" fill="none">
@@ -122,14 +128,13 @@ dalam format PDF oleh pengguna</p>
     </div>
 </section>
 
+<div>
+    <Footer /> 
+</div>
 
- 
-
-</>
-
-
+       
+        </> 
     );
-
 };
 
-export default Badan; 
+export default MhsBeranda; 

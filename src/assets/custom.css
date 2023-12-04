@@ -15,6 +15,10 @@
     margin-top: -550px;
 }
 
+.margin-custom-tp4 {
+    margin-top: -100px;
+}
+
 .btn-custom-wd {
     width: 200px;
 }
@@ -35,6 +39,18 @@
     margin-left: 150px;
 }
 
+.margin-custom-lf2 {
+    margin-left: 80px;
+}
+
+.margin-custom-lf3 {
+    margin-left: 200px;
+}
+
+.margin-custom-lf4 {
+    margin-left: 250px;
+}
+
 .mx-custom {
     margin-left: 150px;
     margin-right: 10px;
@@ -44,7 +60,40 @@
     margin-right: 100px;
 }
 
-.m-cust-tp {
-    margin-top: 40px;
+.m-cust-rg2 {
+    margin-right: 80px;
 }
 
+.m-cust-tp {
+    margin-top: 100px;
+}
+
+.m-cust-tp3 {
+    margin-top: 150px;
+}
+
+.m-cust-tp2 {
+    margin-top: 10px;
+}
+
+.rounded-cust {
+    border-radius: 15px;
+}
+
+.card-size {
+    width: 400px;
+    height: 250px;
+}
+
+.shadow-cust {
+    box-shadow: 15px 15px 0px 0px rgba(44, 39, 41, 0.25);
+}
+
+.card-size2 {
+    width: 1100px;
+    height: 500px;
+}
+
+.border-cust {
+    border: 2px solid blue; 
+}
