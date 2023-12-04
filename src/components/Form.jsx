@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import RadioButton from './RadioButton';
+import Select from './Select';
 
 const Form = () => {
 
@@ -47,7 +49,7 @@ const handleChangeInputAcara = (event) => {
   return (
    
     <div>
-      <h2>Buat Jadwal Acara </h2>
+
       <form onSubmit={handleSubmit}>
 
       <div className="row mb-3">
@@ -69,15 +71,13 @@ const handleChangeInputAcara = (event) => {
         <label className= "col-sm-2 col-form-label" >
           Waktu: </label>
             <div className='col'>
-          <input className='input-custom'
+          <input className='input-custom3 m-cust-rg3'
             type="Date"
             name="tanggal"
             value={inputTanggal}
             onChange={handleChangeInputTanggal}
           />
-          </div>
-          <div className="col">
-          <input className='input-custom'
+          <input className='input-custom3'
             type="text"
             name="jam"
             value={inputJam}
@@ -92,22 +92,32 @@ const handleChangeInputAcara = (event) => {
         <label className= "col-sm-2 col-form-label" >
           Keterangan: </label>
           <div className="col-sm-10">
+            <textarea className='input-custom2'>
           <input className='input-custom'
             type="textarea"
             name="lastName"
             value={inputKeterangan}
             onChange={handleChangeInputKeterangan}
           />
+          </textarea>
           </div>
         <br />
         </div> 
 
         <div className="row mb-3">
         <label className= "col-sm-2 col-form-label" >
+          Metode: </label>
+          <div className='col-sm-10'>
+          <RadioButton /> 
+          </div>
+        </div>
+  
+        <div className="row mb-3">
+        <label className= "col-sm-2 col-form-label" >
           Lokasi: </label>
           <div className="col-sm-10">
           <input className='input-custom'
-            type="textarea"
+            type="text"
             name="lastName"
             value={inputLokasi}
             onChange={handleChangeInputLokasi}
@@ -116,15 +126,26 @@ const handleChangeInputAcara = (event) => {
         <br />
         </div> 
 
+        <div className="row mb-3">
+        <label className= "col-sm-2 col-form-label" >
+          Dosen: </label>
+
+          <div className="col-sm-10">
+          <Select />
+        </div>
+        </div>
         
-
-
-
-
-
-        <button type="submit">Kirim</button>
+        <div className='row mt-3'>
+        <button className='btn-custom' type="submit">Kirim</button>
+        </div>
+       
+       
+        
+     
       </form>
     </div> 
+
+
 
 
   );

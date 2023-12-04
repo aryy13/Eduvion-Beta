@@ -63,6 +63,8 @@ const Kalender = () => {
 <path fill-rule="evenodd" clip-rule="evenodd" d="M4.875 14.625H47.125V17.875H4.875V14.625Z" fill="#0F172A"/>
 </svg>
      Kalender Akademik</h4>
+
+
        <div class="card rounded-cust m-cust-tp4 shadow-lg">
        <div class="card-body bg-primary rounded-cust card-size3 shadow-lg" >
        <Calendar />
@@ -93,14 +95,35 @@ const Kalender = () => {
  </section>
 
 <section>
-  <div className="container justify-content-center m-cust-tp">
+  <div className="container">
+    <div className="row">
+ <div className="a m-cust-tp col-md-4 col-sm-12"> 
+      <h4 className='fs-custom3 mb-4'>
+      <svg xmlns="http://www.w3.org/2000/svg" width="66" height="65" viewBox="0 0 66 65" fill="none">
+<g clip-path="url(#clip0_1284_1541)">
+<path d="M38.5 8.125V18.9583C38.5 19.6766 38.7897 20.3655 39.3055 20.8734C39.8212 21.3813 40.5207 21.6667 41.25 21.6667H52.25" stroke="#0F172A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M46.75 56.875H19.25C17.7913 56.875 16.3924 56.3043 15.3609 55.2885C14.3295 54.2727 13.75 52.8949 13.75 51.4583V13.5417C13.75 12.1051 14.3295 10.7273 15.3609 9.7115C16.3924 8.69568 17.7913 8.125 19.25 8.125H38.5L52.25 21.6667V51.4583C52.25 52.8949 51.6705 54.2727 50.6391 55.2885C49.6076 56.3043 48.2087 56.875 46.75 56.875Z" stroke="#0F172A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M24.75 46.0417H41.25" stroke="#0F172A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M24.75 35.2083H41.25" stroke="#0F172A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<clipPath id="clip0_1284_1541">
+<rect width="66" height="65" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+     Buat Jadwal Acara</h4>
 
+
+</div>
     <Form /> 
+  </div>
   </div>
 </section>
 
         
 <div>
+ 
         <Footer /> 
         </div>
         </>

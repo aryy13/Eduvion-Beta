@@ -19,6 +19,10 @@
     margin-top: -100px;
 }
 
+.margin-custom-tp5 {
+    margin-top: -150px;
+}
+
 .btn-custom-wd {
     width: 200px;
 }
@@ -72,6 +76,10 @@
     margin-right: 20px;
 }
 
+.m-cust-rg4 {
+    margin-right: 5px;
+}
+
 .m-cust-tp {
     margin-top: 100px;
 }
@@ -96,7 +104,7 @@
 
 
 .rounded-cust {
-    border-radius: 15px;
+    border-radius: 5px;
 }
 
 .card-size {
@@ -127,6 +135,11 @@
     height: 525px;
 }
 
+.card-size5 {
+    width: 500px;
+    height: 200px;
+}
+
 .btn-end-cust {
     margin-left: 300px;
     margin-top: 350px;
@@ -135,8 +148,50 @@
   }
 
   .input-custom {
-    width: 300px; 
+    width: 100%; 
     border-radius: 8px;
     border: 1px solid black;
     height: 40px;
+  }
+
+  .input-custom2 {
+    width: 100%; 
+    border-radius: 8px;
+    border: 1px solid black;
+    height: 100px;
+  }
+
+  .input-custom3 {
+    width: 150px; 
+    border-radius: 8px;
+    border: 1px solid black;
+    height: 40px;
+  }
+
+  .btn-custom {
+    width:80px;
+    height: 30px; 
+    border-radius: 8px;
+    border:0cap;
+    box-shadow: 1px solid grey;
+    transition: background-color 0.3s ease;
+    background-color: #ffc107;
+    float:right;
+    margin-left: auto;
+    
+  }
+
+  .btn-custom:hover {
+    background-color: white;
+    
+  }
+
+  .box {
+    width: 90%;
+    height: 720px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #F7F6F5;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 25px;
   }
