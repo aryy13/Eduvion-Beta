@@ -35,6 +35,10 @@
     font-size: 2.5rem;
 }
 
+.fs-custom3 {
+    font-size: 1.5rem;
+}
+
 .margin-custom-lf {
     margin-left: 150px;
 }
@@ -64,6 +68,10 @@
     margin-right: 80px;
 }
 
+.m-cust-rg3 {
+    margin-right: 20px;
+}
+
 .m-cust-tp {
     margin-top: 100px;
 }
@@ -76,6 +84,17 @@
     margin-top: 10px;
 }
 
+.m-cust-tp4 {
+    margin-top: 30px;
+}
+
+.m-cust-tp5 {
+    margin-top: 180px;
+}
+
+
+
+
 .rounded-cust {
     border-radius: 15px;
 }
@@ -84,6 +103,7 @@
     width: 400px;
     height: 250px;
 }
+
 
 .shadow-cust {
     box-shadow: 15px 15px 0px 0px rgba(44, 39, 41, 0.25);
@@ -97,3 +117,26 @@
 .border-cust {
     border: 2px solid blue; 
 }
+
+.card-size3 {
+    width: 500px;
+}
+
+.card-size4 {
+    width: 400px;
+    height: 525px;
+}
+
+.btn-end-cust {
+    margin-left: 300px;
+    margin-top: 350px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .input-custom {
+    width: 300px; 
+    border-radius: 8px;
+    border: 1px solid black;
+    height: 40px;
+  }
