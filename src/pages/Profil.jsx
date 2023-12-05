@@ -62,9 +62,10 @@ const Profil = () => {
       
       <div className="row">
         <div className="col-md-3"> 
-        <table className="table table-borderes-less">
-           
-        </table>
+       <label for="field" className="label"> Npm </label>
+       <input type="text"> </input>
+
+        
 
         </div>
       </div>
