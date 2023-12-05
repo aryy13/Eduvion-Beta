@@ -80,6 +80,10 @@
     margin-right: 5px;
 }
 
+.m-cust-rg5 {
+    margin-right: 150px;
+}
+
 .m-cust-tp {
     margin-top: 100px;
 }
@@ -120,6 +124,11 @@
 .card-size2 {
     width: 1100px;
     height: 500px;
+}
+
+.card-size2a {
+    width: 1100px;
+    height: 700px;
 }
 
 .border-cust {
@@ -181,6 +190,18 @@
     
   }
 
+  .btn-custom-chat {
+    width:200px;
+    border-radius: 8px;
+    border:0cap;
+    box-shadow: 1px solid grey;
+    transition: background-color 0.3s ease;
+    background-color: #ffc107;
+    float:right;
+    margin-left: auto;
+    
+  }
+
   .btn-custom:hover {
     background-color: white;
     
@@ -194,4 +215,36 @@
     background: #F7F6F5;
     box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
     padding: 25px;
+  }
+
+  .upload-custom {
+    width: 50%;
+    background-color: white;
+  }
+
+  .card-chat {
+    width: 80%;
+  }
+
+  .table {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .table thead {
+    order: -1;
+    display: flex;
+    flex-direction: row;
+    background-color: #f8f9fa; /* Warna latar kepala data */
+  }
+  
+  .table th {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #dee2e6; /* Warna garis batas */
+  }
+  
+  .table td {
+    border: 1px solid #dee2e6; /* Warna garis batas */
+    padding: 8px;
   }

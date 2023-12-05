@@ -7,6 +7,8 @@ import Profil from './pages/Profil';
 import Repository from './pages/Repository';
 import Chat from './pages/Chat';
 import Signin from './pages/Signin';
+import CreateBimbingan from './pages/CreateBimbingan';
+import MhsBeranda from './pages/MhsBeranda';
 
 
 
@@ -23,6 +25,9 @@ function App() {
         <Route path='/chat' element= {<Chat  />}/>
         <Route path='/profil' element= {<Profil  />}/>
         <Route path='/repository' element= {<Repository  />}/>
+        <Route path='/createBimbinganMhs' element= {<CreateBimbingan/>}/>
+        <Route path='/BerandaMhs' element= {<MhsBeranda/>}/> 
+
       </Routes>
       </Router>
 

@@ -1,12 +1,12 @@
 import React from "react";
 import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
+import FormBimbingan from "../components/FormBimbingan";
 
-
-const Profil = () => {
+const CreateBimbingan = () => {
     return (
         <>
-        <header className="navbar navbar-expand-lg navbar-primary bg-primary p-2 shadow-sm fixed-top"> 
+<header className="navbar navbar-expand-lg navbar-primary bg-primary p-2 shadow-sm fixed-top"> 
             <a className="navbar-brand text-white fw-bold" href= "/"> EDUVION </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls='navbarNav' aria-expanded="false"
               aria-label="Toggle navigation">
@@ -28,7 +28,7 @@ const Profil = () => {
 
                <Link to="/Bimbingan">
                 <li className="nav-item m-2">
-                    <a className="nav-link text-white" href="#">Bimbingan</a>
+                    <a className="nav-link active text-white" href="#">Bimbingan</a>
                 </li> </Link>
                 <Link to="/Repository">
                 <li className="nav-item m-2">
@@ -36,7 +36,7 @@ const Profil = () => {
                 </li></Link>
 
                 <Link to="/Profil">
-            <li className="nav-item m-2 ">
+            <li className="nav-item m-2">
               <button type="button" className="btn btn-sm m-2 btn-outline-light" link to="/login">
                 {' '}
                 <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
@@ -46,41 +46,32 @@ const Profil = () => {
               </button>
             </li>{' '}
           </Link>
-           </ul>
+ </ul>
         </div>
-        </header> 
+        </header>
 
-        <section> 
+
+<section> 
     <div className="container m-cust-tp3">
-    <div className="card mb-3 card-size2 border-cust">
+    <div className="card mb-3 card-size2a border-cust">
   <div className="row no-gutters">
     <div className="col-md-4 col-sm-12 bg-primary">
-      <img src="./gambar8.png"  width="400px" height="500px" class="card-img" alt="..."/>
+      <img src="./gambar8.png"  width="350px" height="700px" class="card-img" alt="..."/>
     </div>
     <div className="col-md-8 col-sm-12 p-5">
-      <div className="card-body justify-content-center">
-      
-      <div className="row">
-        <div className="col-md-3"> 
-        <table className="table table-borderes-less">
-           
-        </table>
-
-        </div>
-      </div>
+      <div className="card-body">
+      <FormBimbingan/>
+       
+ 
+ 
       </div>
     </div>
   </div>
 </div>
 </div>
     </section>
-       
-        <div> 
-            <Footer/>
-        </div>
-        
-        </>
+    </>
     );
-}; 
+};
 
-export default Profil;  
+export default CreateBimbingan; 
